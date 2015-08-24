@@ -49,6 +49,10 @@
 #define SORRY 43
 #define LOG   44
 
+#ifndef SIGCLD
+#  define SIGCLD SIGCHLD
+#endif
+
 static gboolean foreground = FALSE;
 static gint     www_port   = 80;
 static gchar*   map_file   = "map.osm";
