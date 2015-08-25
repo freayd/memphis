@@ -32,6 +32,10 @@ test-driver
 *.lo
 *.la
 
+# Qt
+*.pro.user
+build-*
+
 memphis/memphis
 demos/tile-renderer
 demos/tile-server
